@@ -1,0 +1,114 @@
+baseURL = "https://example.com"
+languageCode = "en"
+DefaultContentLanguage = "en"
+title = "Naomi Pham"
+theme = "anatole-master"
+summarylength = 10
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = "UA-123-45"
+
+# Syntax highlighting
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[params]
+title = "Naomi Pham"
+author = "Naomi Pham"
+#copyright = "2020-2021"
+description = """
+Capture, Write, Share ✍
+Changing The World One Note At A Time
+"""
+profilePicture = "images/avatar2.jpg"
+keywords = ""
+favicon = "favicons/"
+# example ["css/custom.css"]
+customCss = []
+# example ["js/custom.js"]
+customJs = [] 
+mainSections = ["post"]
+images = ["images/site-feature-image.png"]
+doNotLoadAnimations = false
+# Form Spree Contact Form
+#contactFormAction = "https://formspree.io/f/xleaelbr"
+# Google Site Verify
+#googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+# indexDateFormat = "Mon, Jan 2, 2006"
+# listDateFormat = "Jan 2"
+# singleDateFormat = "Mon, Jan 2, 2006"
+# Commento Comments
+# CommentoURL = "https://commento.example.com/js/commento.js"
+# Read More links for truncated summaries
+# readMore = true
+# postSectionName = "blog"
+
+[params.simpleAnalytics]
+# enable = true
+# customurl = "https://analytics.example.com"
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+# use 'fab' when brand icons, use 'fas' when standard solid icons.
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/naomi-pham/"
+
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/mindyourbite"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "Newsletter"
+url = "mindyourbite.substack.com"
+
+## Menu items
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Start here"
+  identifier = "About"
+  weight = 100
+  url = "/about/"
+
+  [[menu.main]]
+  name = "Blog"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "Newsletter"
+  weight = 300
+  identifier = "newsletter"
+  url = "/newsletter/"
+
+  [[menu.main]]
+  name = "Link"
+  weight = 400
+  identifier = "link"
+  url = "/link/"
+  
+    [[menu.main]]
+  name = "Portfolio"
+  weight = 500
+  identifier = "portfolio"
+  url = "/portfolio/"
+
+
